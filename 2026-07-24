@@ -1,0 +1,285 @@
+# Daily Vocab
+
+A personal repository for tracking daily technical vocabulary in software engineering, DDD, system design, and backend development.
+
+مخزنی شخصی برای ثبت روزانه واژگان تخصصی در مهندسی نرم‌افزار، طراحی دامنه‌محور، معماری سیستم و توسعه بک‌اند.
+
+---
+
+## 2026-07-18
+
+### Reasoning — استدلال
+**EN:** Architectural reasoning helps teams justify why a bounded context should remain independent.  
+**FA:** استدلال معماری به تیم‌ها کمک می‌کند توضیح دهند چرا یک محدوده مشخص باید مستقل باقی بماند.
+
+### Payoff — نتیجه ارزشمند
+**EN:** The long-term payoff of clean architecture is better maintainability and easier testing.  
+**FA:** نتیجه ارزشمند بلندمدت معماری تمیز، نگهداشت‌پذیری بهتر و تست‌پذیری آسان‌تر است.
+
+### Heuristic — قواعد تجربی
+**EN:** A common heuristic in distributed systems is to prefer eventual consistency when strong consistency is too costly.  
+**FA:** یک قاعده تجربی رایج در سیستم‌های توزیع‌شده این است که وقتی سازگاری قوی هزینه‌بر است، سازگاری نهایی ترجیح داده شود.
+
+### Grind — با تمرین نهادینه کردن
+**EN:** Learning DDD takes time, and many concepts only become intuitive after you grind through real projects.  
+**FA:** یادگیری DDD زمان می‌برد و بسیاری از مفاهیم فقط بعد از درگیر شدن عملی با پروژه‌های واقعی برایت جا می‌افتند.
+
+### Straightforward — ساده و روشن
+**EN:** The straightforward solution worked well for the prototype, but it was not scalable enough for production.  
+**FA:** راه‌حل ساده و روشن برای نمونه اولیه خوب جواب داد، اما برای محیط عملیاتی به اندازه کافی مقیاس‌پذیر نبود.
+
+---
+
+## 2026-07-19
+
+### Bounded Context — محدوده مشخص مدل
+**EN:** Each bounded context should define its own language, rules, and boundaries clearly.  
+**FA:** هر محدوده مشخص باید زبان، قوانین و مرزهای خودش را به‌صورت شفاف تعریف کند.
+
+### Upstream — بالادست
+**EN:** The billing service is upstream because it produces financial data consumed by other systems.  
+**FA:** سرویس صورتحساب بالادست محسوب می‌شود چون داده‌های مالی تولید می‌کند که توسط سیستم‌های دیگر مصرف می‌شوند.
+
+### Downstream — پایین‌دست
+**EN:** The reporting module is a downstream consumer of events published by the order management system.  
+**FA:** ماژول گزارش‌گیری یک مصرف‌کننده پایین‌دست برای رویدادهای منتشرشده توسط سیستم مدیریت سفارش است.
+
+### Customer–Supplier — رابطه مشتری و تامین‌کننده
+**EN:** In a customer–supplier relationship, the upstream team should prioritize the needs of critical downstream consumers.  
+**FA:** در رابطه مشتری و تامین‌کننده، تیم بالادست باید نیازهای مصرف‌کنندگان مهم پایین‌دست را در اولویت قرار دهد.
+
+### Partnership — شراکت و همکاری نزدیک
+**EN:** Two teams may choose a partnership model when both sides influence the core business workflow.  
+**FA:** زمانی که هر دو تیم بر جریان اصلی کسب‌وکار اثر می‌گذارند، ممکن است مدل شراکت را انتخاب کنند.
+
+### Cooperation — همکاری تیم‌ها
+**EN:** Effective cooperation between domain experts and developers leads to a more accurate domain model.  
+**FA:** همکاری مؤثر بین متخصصان دامنه و توسعه‌دهندگان به شکل‌گیری مدل دامنه دقیق‌تر منجر می‌شود.
+
+### Open-Host Service — سرویس میزبان باز
+**EN:** An open-host service allows multiple consumers to integrate through a stable and well-documented interface.  
+**FA:** سرویس میزبان باز به چندین مصرف‌کننده اجازه می‌دهد از طریق یک رابط پایدار و مستند، یکپارچه‌سازی انجام دهند.
+
+### gradually — به‌صورت تدریجی
+**EN:** The legacy system was gradually replaced by a set of smaller services.  
+**FA:** سیستم قدیمی به‌صورت تدریجی با مجموعه‌ای از سرویس‌های کوچک‌تر جایگزین شد.
+
+### simultaneously — به‌صورت هم‌زمان
+**EN:** Updating multiple bounded contexts simultaneously can increase coordination complexity.  
+**FA:** به‌روزرسانی هم‌زمان چند محدوده مشخص می‌تواند پیچیدگی هماهنگی را افزایش دهد.
+
+### integration-oriented — یکپارچه‌سازی‌محور
+**EN:** The team adopted an integration-oriented design to simplify communication with external systems.  
+**FA:** تیم یک طراحی یکپارچه‌سازی‌محور را برای ساده‌تر کردن ارتباط با سیستم‌های خارجی انتخاب کرد.
+
+### consumers — مصرف‌کنندگان
+**EN:** API consumers depend on stable contracts and predictable versioning policies.  
+**FA:** مصرف‌کنندگان API به قراردادهای پایدار و سیاست‌های نسخه‌بندی قابل پیش‌بینی وابسته‌اند.
+
+### Requirement — نیازمندی
+**EN:** Every functional requirement should be traceable to a business goal.  
+**FA:** هر نیازمندی عملکردی باید قابل ردیابی به یک هدف کسب‌وکاری باشد.
+
+### Specification — مشخصات فنی
+**EN:** The API specification defines request formats, response models, and error contracts.  
+**FA:** مشخصات فنی API قالب درخواست‌ها، مدل پاسخ‌ها و قراردادهای خطا را تعریف می‌کند.
+
+### Represent — نمایش دادن / بیان کردن
+**EN:** Value objects can represent domain concepts that do not have identity.  
+**FA:** آبجکت‌های مقداری می‌توانند مفاهیم دامنه‌ای را نمایش دهند که هویت مستقل ندارند.
+
+### Precision — دقت
+**EN:** Precision in naming improves communication between developers and domain experts.  
+**FA:** دقت در نام‌گذاری، ارتباط بین توسعه‌دهندگان و متخصصان دامنه را بهتر می‌کند.
+
+### Vague — مبهم
+**EN:** A vague requirement often leads to inconsistent implementation across teams.  
+**FA:** یک نیازمندی مبهم معمولاً باعث پیاده‌سازی ناسازگار بین تیم‌ها می‌شود.
+
+---
+
+## 2026-07-20
+
+### Data Consistency — سازگاری داده‌ها
+**EN:** Maintaining data consistency across microservices requires careful coordination and messaging strategies.  
+**FA:** حفظ سازگاری داده‌ها بین مایکروسرویس‌ها به هماهنگی دقیق و راهبردهای مناسب پیام‌رسانی نیاز دارد.
+
+### Inconsistent State — وضعیت ناسازگار
+**EN:** A failed event handler may leave the system in an inconsistent state if no recovery mechanism exists.  
+**FA:** اگر مکانیزم بازیابی وجود نداشته باشد، شکست یک event handler ممکن است سیستم را در وضعیت ناسازگار قرار دهد.
+
+### Compensating Action — اقدام جبرانی
+**EN:** When a distributed workflow fails, a compensating action can undo the previously completed steps.  
+**FA:** وقتی یک فرایند توزیع‌شده شکست می‌خورد، اقدام جبرانی می‌تواند مراحل انجام‌شده قبلی را خنثی کند.
+
+### Encapsulation Boundary — مرز کپسوله‌سازی
+**EN:** Aggregates define an encapsulation boundary around business invariants.  
+**FA:** Aggregateها یک مرز کپسوله‌سازی پیرامون قواعد پایدار کسب‌وکار تعریف می‌کنند.
+
+### Tactical Design — طراحی تاکتیکی
+**EN:** Tactical design focuses on entities, value objects, aggregates, and domain services.  
+**FA:** طراحی تاکتیکی روی entityها، value objectها، aggregateها و domain serviceها تمرکز دارد.
+
+### Strategic Design — طراحی استراتژیک
+**EN:** Strategic design helps align bounded contexts with business capabilities.  
+**FA:** طراحی استراتژیک کمک می‌کند bounded contextها با قابلیت‌های کسب‌وکار هم‌راستا شوند.
+
+### parse — تجزیه کردن
+**EN:** The application parses incoming JSON messages before mapping them to domain commands.  
+**FA:** برنامه قبل از نگاشت پیام‌های JSON ورودی به commandهای دامنه، آن‌ها را تجزیه می‌کند.
+
+### Executable Test — تست قابل اجرا
+**EN:** An executable test can validate whether a business rule behaves as expected.  
+**FA:** یک تست قابل اجرا می‌تواند بررسی کند که آیا یک قانون کسب‌وکار مطابق انتظار عمل می‌کند یا نه.
+
+### eliminate — حذف کردن
+**EN:** Refactoring helped eliminate duplication in the application layer.  
+**FA:** بازآرایی کد به حذف کدهای تکراری در لایه application کمک کرد.
+
+### Assemble — سرهم کردن
+**EN:** The factory assembles a complex aggregate from validated input data.  
+**FA:** factory یک aggregate پیچیده را از داده‌های ورودی اعتبارسنجی‌شده سرهم می‌کند.
+
+### Formal — رسمی و اداری
+**EN:** A formal integration contract reduces ambiguity between independent teams.  
+**FA:** یک قرارداد رسمی برای یکپارچه‌سازی، ابهام بین تیم‌های مستقل را کاهش می‌دهد.
+
+---
+
+## 2026-07-21
+
+### Data Corruption — خرابی داده‌ها
+**EN:** Poor validation and race conditions may result in data corruption.  
+**FA:** اعتبارسنجی ضعیف و race conditionها ممکن است به خرابی داده‌ها منجر شوند.
+
+### Distributed Transactions — تراکنش‌های توزیع‌شده
+**EN:** Distributed transactions are often avoided in favor of eventual consistency and compensation patterns.  
+**FA:** معمولاً از تراکنش‌های توزیع‌شده پرهیز می‌شود و به‌جای آن از سازگاری نهایی و الگوهای جبرانی استفاده می‌شود.
+
+### Idempotency — یکسان‌اثری / همانی
+**EN:** Idempotency ensures that retrying the same command does not create duplicate side effects.  
+**FA:** Idempotency تضمین می‌کند که تکرار مجدد یک command باعث ایجاد اثرات جانبی تکراری نشود.
+
+### increase — افزایش دادن / افزایش یافتن
+**EN:** Adding unnecessary abstractions can increase the cognitive load of the team.  
+**FA:** اضافه کردن abstractionهای غیرضروری می‌تواند بار ذهنی تیم را افزایش دهد.
+
+### initially — در ابتدا / در آغاز
+**EN:** Initially, the system was designed as a monolith before evolving into modular services.  
+**FA:** در ابتدا سیستم به‌صورت monolith طراحی شد و بعداً به سرویس‌های ماژولار تکامل پیدا کرد.
+
+### Premise — فرض اولیه
+**EN:** The design premise was that each service would own its own data store.  
+**FA:** فرض اولیه طراحی این بود که هر سرویس مالک datastore خودش باشد.
+
+### Robust — مستحکم
+**EN:** A robust error-handling strategy is essential for resilient distributed systems.  
+**FA:** یک راهبرد مستحکم برای مدیریت خطا در سیستم‌های توزیع‌شده تاب‌آور ضروری است.
+
+### Lack — کمبود
+**EN:** A lack of clear domain language often causes misunderstanding in large teams.  
+**FA:** کمبود یک زبان دامنه شفاف، در تیم‌های بزرگ معمولاً باعث سوءبرداشت می‌شود.
+
+### Release cycle — چرخه انتشار
+**EN:** A shorter release cycle enables faster feedback from users and stakeholders.  
+**FA:** چرخه انتشار کوتاه‌تر، دریافت بازخورد سریع‌تر از کاربران و ذی‌نفعان را ممکن می‌کند.
+
+### Crash — از کار افتادن
+**EN:** The worker process may crash if message deserialization is not handled safely.  
+**FA:** اگر deserialization پیام‌ها ایمن مدیریت نشود، پردازش worker ممکن است از کار بیفتد.
+
+---
+
+## 2026-07-22
+
+### Implicit — ضمنی / غیرمستقیم
+**EN:** Implicit assumptions in the model should be made explicit during event storming sessions.  
+**FA:** فرضیات ضمنی موجود در مدل باید در جلسات event storming به‌صورت شفاف بیان شوند.
+
+### Optimistic — خوش‌بینانه
+**EN:** Optimistic concurrency works well when conflicts are relatively rare.  
+**FA:** همزمانی خوش‌بینانه زمانی خوب عمل می‌کند که تعارض‌ها نسبتاً کم باشند.
+
+### Load — بارگذاری کردن / بار
+**EN:** The repository should not load unnecessary data when only a summary view is required.  
+**FA:** وقتی فقط یک نمای خلاصه لازم است، repository نباید داده‌های غیرضروری را بارگذاری کند.
+
+### Transform — تبدیل کردن
+**EN:** Application services transform external DTOs into domain commands.  
+**FA:** سرویس‌های application، DTOهای خارجی را به commandهای دامنه تبدیل می‌کنند.
+
+### Extract — استخراج کردن / بیرون کشیدن
+**EN:** We extracted a shared kernel after identifying common concepts across contexts.  
+**FA:** بعد از شناسایی مفاهیم مشترک بین contextها، یک shared kernel استخراج کردیم.
+
+### Simplicity — سادگی
+**EN:** Simplicity in architecture often leads to better maintainability and fewer integration errors.  
+**FA:** سادگی در معماری معمولاً به نگهداشت‌پذیری بهتر و خطاهای کمتر در یکپارچه‌سازی منجر می‌شود.
+
+---
+
+## 2026-07-23
+
+### complicated — پیچیده
+**EN:** The workflow became unnecessarily complicated because too many responsibilities were placed in one service.  
+**FA:** این فرایند به‌صورت غیرضروری پیچیده شد چون مسئولیت‌های زیادی داخل یک سرویس قرار گرفت.
+
+### introduces — معرفی می‌کند / وارد می‌کند
+**EN:** Every new dependency introduces additional maintenance and operational risk.  
+**FA:** هر وابستگی جدید، ریسک نگهداری و ریسک عملیاتی بیشتری وارد می‌کند.
+
+### relatively — نسبتاً
+**EN:** This approach is relatively easy to implement but difficult to scale safely.  
+**FA:** این رویکرد پیاده‌سازی نسبتاً ساده‌ای دارد، اما مقیاس‌دادن ایمن آن دشوار است.
+
+### discussed — مطرح شد / مورد بحث قرار گرفت
+**EN:** Several trade-offs were discussed before choosing eventual consistency.  
+**FA:** قبل از انتخاب سازگاری نهایی، چندین بده‌بستان فنی مورد بحث قرار گرفت.
+
+### Anemic — کم‌مایه / ضعیف
+**EN:** An anemic domain model often pushes business rules into application services instead of the domain layer.  
+**FA:** یک مدل دامنه کم‌مایه معمولاً قوانین کسب‌وکار را به‌جای لایه دامنه، به سرویس‌های application منتقل می‌کند.
+
+---
+
+## 2026-07-24
+
+### Functionality — عملکرد
+**EN:** New functionality should be added without violating existing domain rules.  
+**FA:** قابلیت‌های جدید باید بدون نقض قوانین فعلی دامنه اضافه شوند.
+
+### Specific — خاص
+**EN:** A specific domain event is easier to understand than a generic system notification.  
+**FA:** یک رویداد دامنه‌ای مشخص از یک اعلان عمومی سیستمی قابل‌فهم‌تر است.
+
+### Culture — فرهنگ
+**EN:** Engineering culture has a major impact on code quality and collaboration.  
+**FA:** فرهنگ مهندسی تأثیر زیادی بر کیفیت کد و همکاری تیمی دارد.
+
+### Maintainable — قابل نگهداری
+**EN:** A maintainable codebase depends on clear boundaries and consistent conventions.  
+**FA:** یک codebase قابل نگهداری به مرزبندی شفاف و conventionهای یکدست وابسته است.
+
+### Dependent — وابسته
+**EN:** This module is dependent on an external provider for authentication data.  
+**FA:** این ماژول برای داده‌های احراز هویت به یک ارائه‌دهنده خارجی وابسته است.
+
+### primitive — ابتدایی / اولیه
+**EN:** Replacing primitive types with value objects can improve domain clarity.  
+**FA:** جایگزین کردن typeهای primitive با value objectها می‌تواند شفافیت دامنه را بیشتر کند.
+
+### Plain Old Objects (POCO) — آبجکت ساده دات‌نت / کلاس ساده بدون وابستگی به فریم‌ورک
+**EN:** Domain entities should remain POCOs to avoid coupling the model to infrastructure concerns.  
+**FA:** entityهای دامنه باید POCO باقی بمانند تا مدل به دغدغه‌های زیرساختی وابسته نشود.
+
+### Complexity — پیچیدگی
+**EN:** Accidental complexity often appears when infrastructure details leak into the domain layer.  
+**FA:** پیچیدگی تصادفی معمولاً زمانی ایجاد می‌شود که جزئیات زیرساخت به لایه دامنه نشت کنند.
+
+### exclusively — منحصراً / فقط
+**EN:** This service is used exclusively for audit logging and traceability.  
+**FA:** این سرویس منحصراً برای ثبت رویدادهای حسابرسی و رهگیری استفاده می‌شود.
+
+### Relying — متکی بودن / تکیه کردن
+**EN:** Relying too much on shared databases can weaken service autonomy.  
+**FA:** تکیه بیش از حد به دیتابیس‌های مشترک می‌تواند استقلال سرویس‌ها را تضعیف کند.
